@@ -1,0 +1,59 @@
+body, div, h3, p , ul, li {
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+}
+
+.mainDiv {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.leftDiv {
+	width: 16%;
+	height: 1000px;
+	background-color: blue;
+	color: #fff;
+	font-size: 24px;
+	padding: 20px
+
+}
+.leftDiv ul li {
+	margin: 20px 0 20px 0;
+}
+.rightDiv {
+	width: 84%;
+	height: 1000px;
+	background-color: #fff;
+	color: #000;
+	font-size: 20px;
+	
+}
+.topNav {
+	height: 50px;
+	background-color: blue;
+
+}
+.topNav ul {
+	display: flex;
+	list-style: none;
+	list-style-type: none;
+
+}
+.topNav ul li {
+	padding: 10px;
+	text-align: center;
+	list-style-type: none;
+	color: #fff;
+}
+
+.container {
+	padding: 20px;
+}
